@@ -31,5 +31,11 @@
 		</plugin>
   	</plugins>
   </build>
-  
+  <distributionManagement>        
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://34.93.149.51:8081/repository/DevopsSnapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
